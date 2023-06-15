@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+/* 
+font-family: 'Mukta', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+* {
+margin : 0;
+padding : 0;
+box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+.container{
+    background-color: #005053;
+    padding:49px  156px 49px 154px;
+}
+
+.container .navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.container .navbar .links{
+    display: flex;
+    gap:20px;
+}
+.container .navbar .links .link {
+    list-style: none;
+}
+.container .navbar .links .link a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.container .free-package-tracker{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+.container .free-package-tracker .left .header-1{
+    font-family: 'Mukta', sans-serif;
+    color:#ffffff;
+    font-size:4.4rem ;
+}
+.container .free-package-tracker .left .para-1{
+    font-size:1.5rem ;
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif; 
+    height:87px;
+    width: 400px;
+    line-height: 25px;
+}
+
+.container .free-package-tracker .left .button{
+    display: flex;
+    background-color: #4285f4;
+    height: 70px;
+    width: 235px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.container .free-package-tracker .left .button .button-1{
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+.container .free-package-tracker .left .para-2{
+    width: 450px;
+    color:#0f8084;
+    font-family: 'Roboto', sans-serif; 
+    margin-bottom: 60px;
+}
+.container .free-package-tracker .left .header-2{
+    font-size:3rem;
+    font-family: 'Mukta', sans-serif;
+    color:#ffffff;   
+    }
+
+
+.container .title{
+    display:flex;
+    gap:70px;
+    margin-top: 18px;
+}
+
+.container .title .title-1{
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+
+}
+.container .install{
+    display: flex;
+    align-items: center;
+}
+
+.container .circle{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    border:solid 3px #02b77b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .line{
+    border-top:2px dashed #cacaca;
+    width:150px;
+}
+.container .circle .number{
+    font-size: 1.6rem;
+    color:#02b77b;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container .track-package{
+  display: flex;
+  justify-content: space-between;
+  margin-top:160px;
+  
+}
+.container .track-package .left .header{
+    font-size:2.5rem;
+    font-family: 'Mukta', sans-serif;
+    color:#ffffff;
+    
+}
+.container .track-package .left .para{
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif; 
+    color:#02b77b;
+    margin:1px 0px 28px 0px;
+}
+
+.container .track-package .left .content{
+    padding-bottom:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.container .track-package .left .content .line-1{
+    border-top:4px dashed #02b77b;
+    width:22px
+}
+.container .track-package .left .content .para-3{
+    font-size: 1.2rem;
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 30px;
+}
+.container .track-tab{
+    margin-bottom: 80px;
+}
+.container .track-tab .para-top{
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif; 
+    color:#02b77b;
+    margin:1px 0px 2px 0px;
+}
+.container .track-tab .header{
+    font-size:2.5rem;
+    font-family: 'Mukta', sans-serif;
+    color:#ffffff;
+    
+}
+.container .track-tab .para-2,
+.container .track-tab .para-3{
+    font-size: 1.2rem;
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container .track-tab .para-3{
+    height:40px;
+}
+
+.container .track-tab  .tab-2{
+    height: 500px;
+    position: relative;
+    left: -40px;
+}
+
+
+.container .features .heading{
+    font-size:2.5rem;
+    font-family: 'Mukta', sans-serif;
+    color:#ffffff;
+    margin-bottom: 21px;
+}
+
+
+.container .results{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container .results .content.margin{
+    margin:0px 50px;
+}
+.container .results .content .para{
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif; 
+    color:#02b77b;
+    margin:15px 0px 10px 0px;
+}
+
+.container .results .content .para-3{
+    font-size: 1.2rem;
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container .ad-track-container {
+    background-color: #ffffff;
+    margin-top:123px;
+    height:379px;
+    width: 1000px;
+    border-radius: 13px;
+}
+.container .ad-track-container .ad-track-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 98px 41px  60px ;
+}
+
+.container .ad-track-container .ad-track-container-1 .left .button{
+    display: flex;
+    background-color: #4285f4;
+    height: 70px;
+    width: 235px;
+    justify-content: center;
+    align-items: center;
+    margin:33px 0px 25px 0px;
+}
+.container .ad-track-container .ad-track-container-1 .left .button .button-1{
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+.container .ad-track-container .ad-track-container-1 .left .header{
+    font-size:2.8rem;
+    font-family: 'Mukta', sans-serif;
+    color:#000000;
+    width: 500px;
+    margin-top: 60px;
+}
+.container .ad-track-container-1 .left .para{
+    font-size: 1.2rem;
+    color:#005053;
+    font-family: 'Roboto', sans-serif;
+    width: 564px;
+
+}
+.container .footer{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin:50px 0px 27px 0px;
+    gap:10px;
+}
+
+
+
